@@ -63,6 +63,6 @@ jobs:
          scp: |
           ./*.war => /tmp/
          last_ssh: |
-            sudo cp /tmp/*.war /var/lib/tomcat9/webapps/ 
+            sudo cp /tmp/*.war /var/lib/tomcat9/webapps/Deva,war
             ls -la
 
